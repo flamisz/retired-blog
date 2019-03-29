@@ -8,7 +8,7 @@ git commit -m "init"
 
 
 1. yarn init
-2. yarn add tailwindcss --dev
+2. yarn add tailwindcss@next --dev
 https://next.tailwindcss.com/docs/controlling-file-size
 simple:
 1. create styles.css
@@ -32,3 +32,5 @@ mix.postCss('src/styles.css', 'dist', [
     require('tailwindcss'),
 ]
 5. yarn dev
+
+create the html template
